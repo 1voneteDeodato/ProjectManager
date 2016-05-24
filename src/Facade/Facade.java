@@ -5,7 +5,7 @@ import Control.UsuarioControl;
 import java.util.ArrayList;
 import Model.Usuario;
 
-
+//Foi criada a classe Facade
 public class Facade {
 
 

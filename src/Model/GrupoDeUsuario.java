@@ -1,7 +1,7 @@
 package Model;
 
 
-
+//Criação do grupo de usuários
 
 
 public class GrupoDeUsuario {

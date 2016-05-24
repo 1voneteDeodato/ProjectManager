@@ -39,7 +39,7 @@ this.descricao = descricao;
 public double getPeso() {
 return peso;
 }
-
+//void
 public void setPeso(double peso) {
 this.peso = peso;
 }

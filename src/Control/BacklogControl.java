@@ -2,7 +2,7 @@
 
 package Control;
 
-
+//Criada a Class BacklogControl
 public class BacklogControl {
 
 private static BacklogControl controladorBacklog;

@@ -10,7 +10,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import javax.swing.JOptionPane;
-
+//==
 
 
 
@@ -18,7 +18,7 @@ public class ConectaDB {
 public Statement stm;
 public ResultSet rs;
 private String driver = "com.mysql.jdbc.Driver";
-private String caminho = "jdbc:mysql://localhost:3306/gap";// MYDB È o nome do provavel banco
+private String caminho = "jdbc:mysql://localhost:3306/gap";// MYDB √© o nome do provavel banco
 private String usuario = "root";
 private String senha = "";
 public Connection conn;
@@ -30,7 +30,7 @@ System.setProperty("jdbc.Drivers", driver);
 conn = DriverManager.getConnection(caminho, usuario, senha);
 JOptionPane.showMessageDialog(null, "Conectado com sucesso!");
 } catch (SQLException e) {
-JOptionPane.showMessageDialog(null, "Erro de conex„o! \n Erro:" + e.getMessage());
+JOptionPane.showMessageDialog(null, "Erro de conex√£o! \n Erro:" + e.getMessage());
 }
 }
 
